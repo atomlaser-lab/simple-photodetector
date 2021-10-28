@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name simple-photodetector)(type KiCad)(uri ${KIPRJMOD}/simple-photodetector.pretty)(options "")(descr ""))
+)

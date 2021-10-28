@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Part List</title>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 400px;
+        }
+        tr.group-header {
+            background-color: #AAAAAA;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+        tr.component-added {
+            background-color: red;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function changeState(self,name) {
+            var el = document.getElementById("row-" + name)
+            if (self.checked) {
+                el.classList.add("component-added")
+            } else {
+                el.classList.remove("component-added")
+            }
+        }
+    </script>
+</head>
+<body>
+    <table>
+
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">RMCF1206FG2K00CT-ND‎</td>
+    </tr>
+    
+        <tr class="component" id="row-R1">
+            <td class="component">R1</td>
+            <td class="component">2k</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'R1');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">339-C1206C104K3RAC7800CT-ND‎</td>
+    </tr>
+    
+        <tr class="component" id="row-C4">
+            <td class="component">C4</td>
+            <td class="component">100n</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C4');">
+        </tr>
+        
+        <tr class="component" id="row-C6">
+            <td class="component">C6</td>
+            <td class="component">100n</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C6');">
+        </tr>
+        
+        <tr class="component" id="row-C7">
+            <td class="component">C7</td>
+            <td class="component">100n</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C7');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">1572-1384-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-C1">
+            <td class="component">C1</td>
+            <td class="component">22u</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C1');">
+        </tr>
+        
+        <tr class="component" id="row-C2">
+            <td class="component">C2</td>
+            <td class="component">22u</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C2');">
+        </tr>
+        
+        <tr class="component" id="row-C3">
+            <td class="component">C3</td>
+            <td class="component">22u</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C3');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">339-C1206C200K5GAC7800CT-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-C5">
+            <td class="component">C5</td>
+            <td class="component">20p</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'C5');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">475-1076-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-D3">
+            <td class="component">D3</td>
+            <td class="component">D_Photo</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'D3');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">PH1RB-03-UA</td>
+    </tr>
+    
+        <tr class="component" id="row-J1">
+            <td class="component">J1</td>
+            <td class="component">Conn_01x03</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'J1');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">296-OPA2156IDRCT-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-U1">
+            <td class="component">U1</td>
+            <td class="component">Opamp_Dual_Generic</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'U1');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">CT6ER103-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-RV1">
+            <td class="component">RV1</td>
+            <td class="component">10k</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'RV1');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">2057-RF2-49B-T-00-50-G-HDW-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-J2">
+            <td class="component">J2</td>
+            <td class="component">Conn_Coaxial</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'J2');">
+        </tr>
+        
+    <tr class="group-header">
+        <td colspan="3" class="group-hear">478-7806-1-ND</td>
+    </tr>
+    
+        <tr class="component" id="row-D1">
+            <td class="component">D1</td>
+            <td class="component">D</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'D1');">
+        </tr>
+        
+        <tr class="component" id="row-D2">
+            <td class="component">D2</td>
+            <td class="component">D</td>
+            <td class="component"><input type="checkbox" onclick="changeState(this,'D2');">
+        </tr>
+        
+    </table>
+</body>
